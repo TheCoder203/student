@@ -79,7 +79,7 @@ var compsci_joke_list = [
 ];
 var randomIndex = Math.floor(Math.random() * compsci_joke_list.length);
 var selectedJoke = compsci_joke_list[randomIndex];
-console.log("Joke #" + (randomIndex + 1) + ": " + selectedJoke.joke + " (Complexity: " + selectedJoke.complexity + ")");
+console.log("Joke #" + (randomIndex + 1) + ": " + selectedJoke.joke + " (Complexity:" + selectedJoke.complexity + ")");
 ```
 
 
