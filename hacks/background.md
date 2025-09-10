@@ -10,6 +10,7 @@ permalink: /background
 <canvas id="world"></canvas>
 
 <script>
+  // get a background and sprite image in a 2d world
   const canvas = document.getElementById("world");
   const ctx = canvas.getContext('2d');
   const backgroundImg = new Image();
@@ -22,6 +23,7 @@ permalink: /background
     imagesLoaded++;
     startGameWorld();
   };
+  // Start the game once the sprite image  loads
   spriteImg.onload = function() {
     imagesLoaded++;
     startGameWorld();
@@ -30,6 +32,7 @@ permalink: /background
   function startGameWorld() {
     if (imagesLoaded < 2) return;
 
+// There is a game object which is part of a gameworld
     class GameObject {
       constructor(image, width, height, x = 0, y = 0, speedRatio = 0) {
         this.image = image;
@@ -40,6 +43,7 @@ permalink: /background
         this.speedRatio = speedRatio;
         this.speed = GameWorld.gameSpeed * this.speedRatio;
       }
+      //Draw the image on screen
       update() {}
       draw(ctx) {
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
@@ -54,12 +58,13 @@ permalink: /background
       update() {
         this.x = (this.x - this.speed) % this.width;
       }
+      //Loop the background so it goes continuously
       draw(ctx) {
         ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
         ctx.drawImage(this.image, this.x + this.width, this.y, this.width, this.height);
       }
     }
-
+//Player is now a game object in the game world and floats
     class Player extends GameObject {
       constructor(image, gameWorld) {
         const width = image.naturalWidth / 2;
@@ -70,14 +75,15 @@ permalink: /background
         this.baseY = y;
         this.frame = 0;
       }
+      // Use a sine wave function to make the sprite move vertically in a wave.
       update() {
         this.y = this.baseY + Math.sin(this.frame * 0.05) * 20;
         this.frame++;
       }
     }
-
+// Main gameworld class
     class GameWorld {
-      static gameSpeed = 5;
+      static gameSpeed = 5; //Base speed for scrolling objects and make canvas fit screen
       constructor(backgroundImg, spriteImg) {
         this.canvas = document.getElementById("world");
         this.ctx = this.canvas.getContext('2d');
@@ -90,25 +96,28 @@ permalink: /background
         this.canvas.style.position = 'absolute';
         this.canvas.style.left = `0px`;
         this.canvas.style.top = `${(window.innerHeight - this.height) / 2}px`;
-
+//Start game objects
         this.objects = [
          new Background(backgroundImg, this),
          new Player(spriteImg, this)
         ];
       }
+      //Main loop updating every frame
       gameLoop() {
         this.ctx.clearRect(0, 0, this.width, this.height);
         for (const obj of this.objects) {
           obj.update();
           obj.draw(this.ctx);
         }
+        //Request the next frame
         requestAnimationFrame(this.gameLoop.bind(this));
       }
+      //Start loop
       start() {
         this.gameLoop();
       }
     }
-
+//create new gameworld
     const world = new GameWorld(backgroundImg, spriteImg);
     world.start();
   }
