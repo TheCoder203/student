@@ -64,7 +64,7 @@ HTML implementation of the calculator.
       <div class="calculator-number">6</div>
       <div class="calculator-operation">-</div>
       <!--row 3-->
-      <div class="calculator-number">7</div>
+      <div class="calculator-number">67</div>
       <div class="calculator-number">8</div>
       <div class="calculator-number">9</div>
       <div class="calculator-operation">*</div>
