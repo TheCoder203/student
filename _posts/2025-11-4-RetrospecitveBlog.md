@@ -108,6 +108,10 @@ Regarding the mansion game, I did several things to progress the level. Firstly,
 
 ![Chair Interaction]({{site.baseurl}}/images/RetrospectiveBlog/ChairInteraction.png)
 
+### N@TM
+
+For N@TM, I had two jobs. The first of these was to explain what the sprites in the intro chamber of our level did. The second job was to explain how to boss worked and its different stages during the battle.
+
 ## Analytics
 
 ![Github Contributions]({{site.baseurl}}/images/RetrospectiveBlog/GithubAnalytics.png)
