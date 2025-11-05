@@ -124,3 +124,12 @@ https://compsciteam.github.io/student/calculator/writeup
 
 ![Github Contributions]({{site.baseurl}}/images/RetrospectiveBlog/GithubAnalytics.png)
 ![Pages Analytics]({{site.baseurl}}/images/RetrospectiveBlog/PagesAnalytics.png)
+
+## Self Glaze 
+
+Below I have put images of my teammates talking about how I helped.
+
+![Glaze]({{site.baseurl}}/images/RetrospectiveBlog/Glaze1.png)
+![Glaze]({{site.baseurl}}/images/RetrospectiveBlog/Glaze2.png)
+![Glaze]({{site.baseurl}}/images/RetrospectiveBlog/Glaze3.png)
+![Glaze]({{site.baseurl}}/images/RetrospectiveBlog/Glaze4.png)
