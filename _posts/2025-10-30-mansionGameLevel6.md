@@ -8,6 +8,10 @@ author: Krish K
 
 # Personal Blog
 
+## Comparison to the Beginning
+
+At the beginning of this year, I didn't knwo how to code in Javascript. I did have previous experiences with python but javascript was new. Throughout this trimester, I think that I have truly grown as I've learned many things. It's not just coding either. I've learned how to coordinate and work well in a group, split up work, and many other things that I know will come in handy for the rest of my life.
+
 <p>
 <details>
 <summary>Sprints</summary>
@@ -115,7 +119,7 @@ In this sprint, we, as a class, collectively made a game together with each grou
 
 <p>Regarding the mansion game, I did several things to progress the level. Firstly, I addded a lot of the sprite images, including all of the reaper sprites and the scythe. I also worked on the blog, which helped track our progress and showed us how far along we were. Finally, I also added the easter egg of the chairs not letting you sit on them in the intro chamber.
 
-
+![Chair Interaction]({{site.baseurl}}/images/RetrospectiveBlog/ChairInteraction.png)
 
 </p>
 
