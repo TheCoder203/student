@@ -112,6 +112,14 @@ Regarding the mansion game, I did several things to progress the level. Firstly,
 
 For N@TM, I had two jobs. The first of these was to explain what the sprites in the intro chamber of our level did. The second job was to explain how to boss worked and its different stages during the battle.
 
+## Hacks
+
+I was in subteam 2 for our group, which had me, Samarth, and Pranay. We worked on Calculator and Tic-tac-toe. My main contribution was in The Calculator hack. For this hack, I worked on several things. First, I helped change to color of the buttons and also added a few more buttons to the hack.
+![Calculator Hack]({{site.baseurl}}/images/RetrospectiveBlog/CalculatorHack.png)
+https://compsciteam.github.io/student/calculator
+
+![Calculator Writeup]({{site.baseurl}}/images/RetrospectiveBlog/CalculatorWriteup.png)
+https://compsciteam.github.io/student/calculator/writeup
 ## Analytics
 
 ![Github Contributions]({{site.baseurl}}/images/RetrospectiveBlog/GithubAnalytics.png)
