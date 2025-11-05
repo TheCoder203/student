@@ -92,6 +92,8 @@ In this sprint, each group taught two lessons about JavaScript to the rest of th
 
 My group did Functions and Variables — I co-created the variables lesson. I designed the homework and checked the lesson to make sure it matched.
 
+![VariablesLesson]({{site.baseurl}}/images/RetrospectiveBlog/VariablesLesson.png)
+
 Throughout each lesson, I learned and understood each aspect of coding. I later used this in our mansion game to help optimize and make the coding experience easier.
 
 ## Sprint 3: Creating a Game for N@TM
