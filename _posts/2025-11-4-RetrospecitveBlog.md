@@ -106,4 +106,7 @@ Regarding the mansion game, I did several things to progress the level. Firstly,
 
 ![Chair Interaction]({{site.baseurl}}/images/RetrospectiveBlog/ChairInteraction.png)
 
+## Analytics
 
+![Github Contributions]({{site.baseurl}}/images/RetrospectiveBlog/GithubAnalytics.png)
+![Pages Analytics]({{site.baseurl}}/images/RetrospectiveBlog/PagesAnalytics.png)
