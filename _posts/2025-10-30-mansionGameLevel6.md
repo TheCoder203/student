@@ -8,6 +8,10 @@ author: Krish K
 
 # Personal Blog
 
+<p>
+<details>
+<summary>Sprints</summary>
+
 ## Sprint 1: Onborading and LxD
 
 <p>In this sprint, we set up multiple tools such as Github, VsCode, and Kasm. We learned how to use each of them and what we can do with them. Below, I have put a blog that I made on Kasm setup</p>
@@ -69,6 +73,7 @@ code .
 <p>
 <details>
 <summary>JS Lessons</summary>
+
 1. Variables (Tinkerers)
 
 2. Functions (Tinkerers)
@@ -92,6 +97,10 @@ code .
 11. Classes and Variables (Inventors)
 
 12. Classes and Constructors (Makers)
+
+My group did Functions and Variables, out of which I co-created variables. I designed the homework and also checked over the lesson to make sure it matched.
+
+Throughout each lesson, I learned and understood each aspect of coding. I later used this in our mansion game to help optimize and make the coding experience easier. 
 </p>
 </details>
 
@@ -100,13 +109,25 @@ code .
 In this sprint, we, as a class, collectively made a game together with each group handling one level. Our group handled level 6, the final level. Below, there is a link to a blog that describes what we did. <https://pages.opencodingsociety.com/gamify/blogs/mansion6>
 
 
+<p>
+<details>
+<summary>Mansion Game Contributions</summary>
+
+<p>Regarding the mansion game, I did several things to progress the level. Firstly, I addded a lot of the sprite images, including all of the reaper sprites and the scythe. I also worked on the blog, which helped track our progress and showed us how far along we were. Finally, I also added the easter egg of the chairs not letting you sit on them in the intro chamber.
 
 
 
+</p>
 
 
 
- 
+</p>
+</details>
+
+
+
+ </p>
+ </details>
  
 
 
