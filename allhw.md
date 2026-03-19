@@ -2,7 +2,7 @@
 layout: base
 title: Retrospective Blog
 comments: True
-permalink: /student/allhw
+permalink: /allhw
 author: Krish K
 ---
 
