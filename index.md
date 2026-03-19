@@ -28,43 +28,36 @@ Hi! My name is Krish Kelageri.
 <a href="https://open-coding-society.github.io/student">
     <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?logo=github&logoColor=white" alt="GitHub Pages">
 </a>
-<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
+<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3;">
     KASM
 </a>
-<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
-    <span style="color: #FFFFFF">VSCODE</span>
+<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4b;">
+    VSCODE
 </a>
 
 <br>
 
 ### Class Progress
 
-<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3;">
     Snake Game
 </a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
-    <span style="color: #000000">Turtle</span>
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1;">
+    Turtle
 </a>
-<a href="{{site.baseurl}}/allhw" style="text-decoration: none;">
-    <div style="background-color: #e10b0b; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-        Lesson homeworks
-    </div>
+<a href="{{site.baseurl}}/allhw" class="button small" style="background-color: #e10b0b;">
+    Lesson Homeworks
 </a>
-<a href="{{site.baseurl}}/N@TMBlog" style="text-decoration: none;">
-    <div style="background-color: #0d1eb3; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-        N@TM blog
-    </div>
+<a href="{{site.baseurl}}/N@TMBlog" class="button small" style="background-color: #0d1eb3;">
+    N@TM Blog
 </a>
-<a href="{{site.baseurl}}/about" style="text-decoration: none;">
-    <div style="background-color: #83c538; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-        About me
-    </div>
+<a href="{{site.baseurl}}/about" class="button small" style="background-color: #83c538;">
+    About Me
 </a>
-<a href="{{site.baseurl}}/accompblog" style="text-decoration: none;">
-    <div style="background-color: #E10BCC; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-        Accomplishment blog
-    </div>
+<a href="{{site.baseurl}}/accompblog" class="button small" style="background-color: #E10BCC;">
+    Accomplishment Blog
 </a>
+
 <br>
 
 <!-- Contact Section -->

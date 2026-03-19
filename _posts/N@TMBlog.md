@@ -2,7 +2,7 @@
 layout: post
 title: Retrospective Blog
 comments: True
-permalink: /blogs/N@TM
+permalink: /N@TM
 author: Krish K
 ---
 
