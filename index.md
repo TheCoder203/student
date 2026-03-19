@@ -46,12 +46,12 @@ Hi! My name is Krish Kelageri.
     <span style="color: #000000">Turtle</span>
 </a>
 <a href="{{site.baseurl}}/allhw" style="text-decoration: none;">
-    <div style="background-color: #5A0BE1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+    <div style="background-color: #e10b0b; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
         Lesson homeworks
     </div>
 </a>
-<a href="{{site.baseurl}}/n@tmblog" style="text-decoration: none;">
-    <div style="background-color: #0DB31A; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+<a href="{{site.baseurl}}/N@TMBlog" style="text-decoration: none;">
+    <div style="background-color: #0d1eb3; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
         N@TM blog
     </div>
 </a>
