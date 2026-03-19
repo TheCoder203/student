@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 title: Retrospective Blog
 comments: True
 permalink: /N@TM
